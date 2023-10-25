@@ -2,9 +2,16 @@ body {
   background-color: lightgray;
 }
 
-p {
+.blog p {
   background-color: #34495e;
   border-radius: 20px;
   padding: 21px;
   color: white;
 }
+
+/* p {
+  background-color: #34495e;
+  border-radius: 20px;
+  padding: 21px;
+  color: white;
+} */
