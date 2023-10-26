@@ -1,0 +1,20 @@
+p {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+img {
+  height: 30px;
+  width: 45px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+}
