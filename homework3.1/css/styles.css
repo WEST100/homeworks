@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  padding: 15px;
+}
+
+.reg_form {
+  display: flex;
+  justify-content: center;
+}
+
+.registration {
+  padding: 16px;
+  width: 420px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 20px 32px 0px rgba(96, 97, 112, 0.24), 0px 2px 8px 0px rgba(40, 41, 61, 0.08);
+}
+
+.image {
+  display: flex;
+  justify-content: end;
+}
+
+.info {
+  padding: 0px 16px 16px 16px;
+}
+
+.form_text_header {
+  color: #000;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.form_input_email {
+  width: 100%;
+  height: 48px;
+  padding: 7px 16px;
+  border-radius: 12px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.form_input_email:focus {
+  border: 1px solid #ffe44d;
+  outline: none;
+}
+
+.form_input_pass {
+  width: 100%;
+  height: 48px;
+  padding: 7px 16px;
+  border-radius: 12px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+
+.form_input_pass:focus {
+  border: 1px solid #ffe44d;
+  outline: none;
+}
+
+.text_politic {
+  color: #7b8e98;
+  font-family: "Nunito";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  margin-bottom: 24px;
+}
+
+.button_reg {
+  padding: 14px 24px;
+  border-radius: 55px;
+  background: #ffe44d;
+  width: 100%;
+  border: none;
+  color: #1a1a1a;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.button_log_in {
+  padding: 14px 24px;
+  border-radius: 55px;
+  border: 1px solid #cfd8dc;
+  background: white;
+  width: 100%;
+  color: #1a1a1a;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
