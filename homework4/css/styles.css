@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 150px;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.container div:nth-child(1) {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  z-index: 10;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.container div:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  z-index: 40;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.container div:nth-child(3) {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  z-index: 30;
+  position: absolute;
+  left: 90px;
+  top: 90px;
+}
+
+.green {
+  transition: all 2s;
+}
+
+.green:hover {
+  transform: rotate(-45deg) scale(2);
+}
