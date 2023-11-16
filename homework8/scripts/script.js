@@ -56,6 +56,7 @@ for (let i = 0; i <= data.length; i++) {
   pElem3.innerText = data[i].age
 
   const br = document.createElement("br")
-  dataName.append(pElem, pElem2, pElem3, br)
+    dataName.append(pElem, pElem2, pElem3, br)
+    
 }
 }
