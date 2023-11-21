@@ -17,25 +17,22 @@
 
   
 // function num1(a, b) {
+//   let resultA = 0
+//   let resultB = 0
 //   if (a % 2 === 0) {
-//     console.log(a);
+//     resultA = resultA + a
+//     console.log(resultA);
 //   }
-//   if (b % 2 === 0) {
-//     console.log(b)
+//   if (b % 2 === 0){
+//     resultB = resultB + b
+//     console.log(resultB);
 //   }
-  
-//   let min = a
-//   let max = b
-//   if (a > b) {
-//     min = b
-//     max = a
+//   if (resultA > resultB) {
+//     console.log(resultA, resultB)
+//   } else {
+//     console.log(resultB, resultA)
 //   }
-
-//   for (let i = max; i >= min; i--) {
-//     num1.push(i)
 //   }
-//   console.log(num1);
-// }
 
 // 3. Напишите функцию power, которая принимает два числовых аргумента
 // (основание степени и саму степень) и возвращает число в указанной степени.
@@ -49,18 +46,15 @@
 
 // 4. Напишите функцию, которая принимает числовой аргумент n и считает сумму чисел от 1 до n.
 
-
-// function num2(a, b, c, n) {
-//   let numSum = 0
-//   for (let i = 0; i < num2.length; i++) {
-//     numSum += num2[i];
-//   }
-  
-//   return num2
+// function getsum(n){
+//     let sum = 0
+//     for(let i=1; i<n; i++){
+//         sum += i;
+//     }
+//     return sum;
 // }
 
-// let result = num2(1, 2, 3, 4)
-// console.log(result);
+// console.log(getsum(5));
 
 // 5. Напишите функцию, которая принимает два числовых аргумента n и m и считает сумму
 // четных чисел и нечетных чисел от n до m.Суммы выведите
