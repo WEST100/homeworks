@@ -1,0 +1,262 @@
+@font-face {
+  font-family: Verdana;
+  src: url("../fonts/Verdana.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Verdana;
+  src: url("../fonts/Verdana-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/SegoeUI.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/SegoeUI-Bold.ttf");
+  font-weight: bold;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 8px 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 4px;
+}
+
+nav b {
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #ccc;
+}
+
+.header {
+  max-width: 1500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+  display: block;
+}
+
+.header__title {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  letter-spacing: 4px;
+  margin: 16px 0 0;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__title b {
+  font-size: 36px;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  padding: 8px 16px;
+  letter-spacing: 4px;
+
+  background-color: #000;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.projects_and_about {
+  padding: 8px 16px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.projects_and_about_title {
+  padding: 32px 16px;
+}
+
+.projects_and_about_title p {
+  margin: 15px 0;
+}
+
+.projects_and_about_title h3 {
+  font-size: 24px;
+  font-family: "Segoe UI";
+  font-weight: 400;
+  margin: 10px 0;
+  padding: 16px 0;
+
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.projects_and_about_fotos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 8px;
+}
+
+.projects_and_about_fotos > div {
+  padding: 0 8px;
+  margin: 0 0 16px;
+  width: 25%;
+  border: none;
+  position: relative;
+}
+
+.projects_and_about_fotos img {
+  width: 100%;
+  display: block;
+}
+
+.img_description {
+  background-color: #000;
+  color: white;
+  padding: 8px 16px;
+  position: absolute;
+  left: 8;
+  top: 0;
+}
+
+.img_about {
+  filter: grayscale(80%);
+}
+
+.img_about_name {
+  margin: 10px 0;
+  font-size: 24px;
+  font-family: "Segoe UI";
+}
+
+.img_about_position {
+  margin: 15px 0;
+  opacity: 0.6;
+}
+
+.img_about_position_descr {
+  margin: 15px 0;
+}
+
+.about_button {
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+}
+
+.about_button:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.projects_and_about_fotos h3 {
+  font-size: 24px;
+  font-family: "Segoe UI";
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.contact {
+  padding: 32px 32px 0 32px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.contact h3 {
+  font-size: 24px;
+  font-family: "Segoe UI";
+  font-weight: 400;
+  margin: 10px 0;
+  padding: 24px 0 16px;
+
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.contact input {
+  width: 100%;
+  padding: 8px;
+  margin: 16px 0;
+  border: 1px solid #ccc;
+  display: block;
+}
+
+.contact p {
+  margin-top: 15px;
+}
+
+.contact button {
+  margin: 16px 0 48px;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.contact > img {
+  width: 100%;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.footer {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_descr {
+  color: white;
+  margin: 15px 0;
+  padding: 16px 0;
+}
+
+.footer_descr a {
+  color: white;
+}
+
+.footer_descr a:hover {
+  color: green;
+}
