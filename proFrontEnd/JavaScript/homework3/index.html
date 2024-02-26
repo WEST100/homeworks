@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 1</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="gallery">
+      <img src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?cs=srgb&dl=pexels-ilo-frey-2317904.jpg&fm=jpg" alt="" class="zoom__image" onclick="zoom()" />
+    </div>
+
+    <div>
+      <select name="" class="moduls_category">
+        <option value="Frontend">Frontend</option>
+        <option value="Backend">Backend</option>
+        <option value="Design">Design</option>
+      </select>
+      <select name="" class="kurs_category">
+        <option class="Frontend" value="1000">Frontend Basic</option>
+        <option class="Frontend" value="1500">Frontend Pro</option>
+        <option class="Frontend" value="800">JS</option>
+        <option class="Frontend" value="800">HTML+CSS</option>
+        <option class="Backend" value="1000">Backend Basic</option>
+        <option class="Backend" value="1500">Backend Pro</option>
+        <option class="Backend" value="800">JAVA</option>
+        <option class="Design" value="500">Photoshop</option>
+        <option class="Design" value="500">Figma</option>
+      </select>
+      <input class="count" type="text" placeholder="введите кол-во курсов" />
+      <button onclick="getSum()">расчитать стоимость</button>
+      <h2 class="sum-result">Стоимость курсов:</h2>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
