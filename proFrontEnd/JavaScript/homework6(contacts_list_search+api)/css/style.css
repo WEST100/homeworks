@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 300px;
+  border: 1px solid black;
+}
+
+.contact {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.inputElem {
+  width: 100%;
+}
+
+.contact__footer {
+  margin-top: 10px;
+}
+
+.mainDiv {
+  display: flex;
+  align-items: center;
+}
+
+.imgELem {
+  margin: 5px;
+}
